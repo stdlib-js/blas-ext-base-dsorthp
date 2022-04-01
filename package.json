@@ -1,0 +1,40 @@
+{
+  "name": "@stdlib/blas-ext-base-dsorthp",
+  "version": "0.0.0",
+  "description": "Sort a double-precision floating-point strided array using heapsort.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/blas-ext-base-dsorthp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "mathematics",
+    "math",
+    "blas",
+    "extended",
+    "sort",
+    "order",
+    "arrange",
+    "permute",
+    "heap",
+    "heapsort",
+    "strided",
+    "array",
+    "ndarray",
+    "float64",
+    "double",
+    "float64array"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
