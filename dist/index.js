@@ -1,9 +1,9 @@
-"use strict";var s=function(l,p){return function(){return p||l((p={exports:{}}).exports,p),p.exports}};var y=s(function(K,w){
-var j=require('@stdlib/math-base-assert-is-positive-zero/dist'),k=require('@stdlib/math-base-assert-is-nan/dist'),g=require('@stdlib/math-base-special-floor/dist');function z(l,p,r,e){var i,q,v,a,h,u,o,t,n,c;if(l<=0||p===0)return r;for(p<0&&(e*=-1),e<0?i=(1-l)*e:i=0,u=l,q=g(l/2);;){if(q>0)q-=1,o=r[i+q*e];else{if(u-=1,u===0)return r;t=i+u*e,o=r[t],r[t]=r[i]}for(n=q,v=n*2+1;v<u&&(c=v+1,c<u&&(a=r[i+c*e],h=r[i+v*e],(a>h||k(a)||a===h&&j(a))&&(v+=1)),a=r[i+v*e],a>o||k(a)||a===o&&j(a));)r[i+n*e]=a,n=v,v=n*2+1;r[i+n*e]=o}}w.exports=z
-});var R=s(function(L,P){
-var m=require('@stdlib/math-base-assert-is-positive-zero/dist'),b=require('@stdlib/math-base-assert-is-nan/dist'),A=require('@stdlib/math-base-special-floor/dist');function B(l,p,r,e,i){var q,v,a,h,u,o,t,n,c;if(l<=0||p===0)return r;for(p<0&&(e*=-1,i-=(l-1)*e),u=l,q=A(l/2);;){if(q>0)q-=1,o=r[i+q*e];else{if(u-=1,u===0)return r;t=i+u*e,o=r[t],r[t]=r[i]}for(n=q,v=n*2+1;v<u&&(c=v+1,c<u&&(a=r[i+c*e],h=r[i+v*e],(a>h||b(a)||a===h&&m(a))&&(v+=1)),a=r[i+v*e],a>o||b(a)||a===o&&m(a));)r[i+n*e]=a,n=v,v=n*2+1;r[i+n*e]=o}}P.exports=B
-});var E=s(function(M,_){
-var C=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),Z=y(),D=R();C(Z,"ndarray",D);_.exports=Z
-});var F=require("path").join,G=require('@stdlib/utils-try-require/dist'),H=require('@stdlib/assert-is-error/dist'),I=E(),f,O=G(F(__dirname,"./native.js"));H(O)?f=I:f=O;module.exports=f;
+"use strict";var h=function(i,v){return function(){return v||i((v={exports:{}}).exports,v),v.exports}};var y=h(function(J,w){
+var m=require('@stdlib/math-base-assert-is-positive-zero/dist'),k=require('@stdlib/math-base-assert-is-nan/dist'),P=require('@stdlib/math-base-special-floor/dist');function Z(i,v,r,e,u){var p,n,a,o,t,s,l,q,c;if(i<=0||v===0)return r;for(v<0&&(e*=-1,u-=(i-1)*e),t=i,p=P(i/2);;){if(p>0)p-=1,s=r[u+p*e];else{if(t-=1,t===0)return r;l=u+t*e,s=r[l],r[l]=r[u]}for(q=p,n=q*2+1;n<t&&(c=n+1,c<t&&(a=r[u+c*e],o=r[u+n*e],(a>o||k(a)||a===o&&m(a))&&(n+=1)),a=r[u+n*e],a>s||k(a)||a===s&&m(a));)r[u+q*e]=a,q=n,n=q*2+1;r[u+q*e]=s}}w.exports=Z
+});var _=h(function(K,R){
+var g=require('@stdlib/strided-base-stride2offset/dist'),z=y();function A(i,v,r,e){return z(i,v,r,e,g(i,e))}R.exports=A
+});var E=h(function(L,d){
+var B=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),b=_(),C=y();B(b,"ndarray",C);d.exports=b
+});var D=require("path").join,F=require('@stdlib/utils-try-require/dist'),G=require('@stdlib/assert-is-error/dist'),H=E(),j,O=F(D(__dirname,"./native.js"));G(O)?j=H:j=O;module.exports=j;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
