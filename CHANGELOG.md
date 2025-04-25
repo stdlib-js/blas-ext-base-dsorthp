@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-14)
+## Unreleased (2025-04-25)
 
 <section class="features">
 
@@ -34,6 +34,8 @@ This release closes the following issue:
 
 <details>
 
+-   [`0c0e21d`](https://github.com/stdlib-js/stdlib/commit/0c0e21db7e88a8859b7db0bea76f89bbb9d1ca91) - **refactor:** avoid returning void expression _(by Athan Reines)_
+-   [`d99e066`](https://github.com/stdlib-js/stdlib/commit/d99e06680eed2c42d9761dd4dfe47817a651bd92) - **bench:** fix Makefile and move to subfolder _(by Athan Reines)_
 -   [`32e4183`](https://github.com/stdlib-js/stdlib/commit/32e4183f26f6923e58795ce3551ddc96799e0ada) - **refactor:** address unnecessary casting and fix docs [(#5079)](https://github.com/stdlib-js/stdlib/pull/5079) _(by Saurabh Singh, Athan Reines)_
 -   [`a6ba17c`](https://github.com/stdlib-js/stdlib/commit/a6ba17cee3a41741a04312d78ddde029470bf338) - **feat:** add C ndarray API and refactor `blas/ext/base/dsorthp` [(#5018)](https://github.com/stdlib-js/stdlib/pull/5018) _(by Prashant Kumar Yadav, stdlib-bot)_
 -   [`272ae7a`](https://github.com/stdlib-js/stdlib/commit/272ae7ac5c576c68cfab1b6e304c86407faa20cd) - **docs:** remove comment _(by Athan Reines)_
