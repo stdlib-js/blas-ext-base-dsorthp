@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2025-06-30)
+## 0.3.0 (2026-01-29)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`2035f34`](https://github.com/stdlib-js/stdlib/commit/2035f344a1a469278042b7532f034dc6119933b3) - **docs:** add function documentation _(by Athan Reines)_
 -   [`0c0e21d`](https://github.com/stdlib-js/stdlib/commit/0c0e21db7e88a8859b7db0bea76f89bbb9d1ca91) - **refactor:** avoid returning void expression _(by Athan Reines)_
 -   [`d99e066`](https://github.com/stdlib-js/stdlib/commit/d99e06680eed2c42d9761dd4dfe47817a651bd92) - **bench:** fix Makefile and move to subfolder _(by Athan Reines)_
 -   [`32e4183`](https://github.com/stdlib-js/stdlib/commit/32e4183f26f6923e58795ce3551ddc96799e0ada) - **refactor:** address unnecessary casting and fix docs [(#5079)](https://github.com/stdlib-js/stdlib/pull/5079) _(by Saurabh Singh, Athan Reines)_
