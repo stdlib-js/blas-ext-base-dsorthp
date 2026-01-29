@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dsorthp from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsorthp@esm/index.mjs';
+import dsorthp from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsorthp@v0.3.0-esm/index.mjs';
 ```
 
 #### dsorthp( N, order, x, strideX )
@@ -152,7 +152,7 @@ dsorthp.ndarray( 3, 1.0, x, 1, x.length-3 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import dsorthp from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsorthp@esm/index.mjs';
+import dsorthp from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsorthp@v0.3.0-esm/index.mjs';
 
 var x = discreteUniform( 10, -100, 100, {
     'dtype': 'float64'
