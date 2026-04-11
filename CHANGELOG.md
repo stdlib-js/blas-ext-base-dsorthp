@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-26)
+## Unreleased (2026-04-11)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`3c53cd5`](https://github.com/stdlib-js/stdlib/commit/3c53cd5e6631fc84321e5f5808c739a1f0de0d7d) - **bench:** fix descriptions _(by Athan Reines)_
 -   [`f9d1409`](https://github.com/stdlib-js/stdlib/commit/f9d140985e169d34f4e66bd770dc675ea28588a3) - **docs:** add missing JSDoc comment _(by Athan Reines)_
 -   [`27f6ddb`](https://github.com/stdlib-js/stdlib/commit/27f6ddb2a9366177b0af9617e88cb7e3d4ea7148) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dsorthp` [(#11097)](https://github.com/stdlib-js/stdlib/pull/11097) _(by Prajjwal Bajpai)_
 
